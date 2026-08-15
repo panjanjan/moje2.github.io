@@ -3,24 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <title>RIZZBE</title>
     <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
 </head>
 <body>
     <div class="layout-container">
 
-        <!-- Sidebar Navigation -->
         <nav class="sidebar">
-            <h2>{{ page.title }}</h2>
+            <h2>RIZZBE</h2>
             <ul>
-                <li><a href="{{ '/' | relative_url }}">Home</a></li>
-                <li><a href="{{ '/ch1.html' | relative_url }}">Ch 1</a></li>
+                <li><a href="{{ '/index.html' | relative_url }}">Obdukcija</a></li>
+                <li><a href="{{ '/pomelo.html' | relative_url }}">Pomelo</a></li>
             </ul>
         </nav>
 
-        <!-- Main Content Area -->
         <main class="content">
-            <!-- Jekyll injects your chapter files here -->
             {{ content }}
         </main>
 

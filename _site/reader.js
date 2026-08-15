@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     controlsDiv.className = 'reader-controls';
 
     const toggleBtn = document.createElement('button');
-    toggleBtn.textContent = 'Switch to Single Page Mode';
+    toggleBtn.textContent = 'Single Page Mode';
 
     const navDiv = document.createElement('div');
     navDiv.className = 'nav-buttons';
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (isSinglePage) {
             content.classList.add('single-page-mode');
             navDiv.style.display = 'flex';
-            toggleBtn.textContent = 'Switch to Scroll Mode';
+            toggleBtn.textContent = 'Scroll Mode';
 
             // Loop through images: show the current one, hide the rest
             images.forEach((img, index) => {
