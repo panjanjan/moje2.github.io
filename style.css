@@ -2,3 +2,24 @@
 @import url('content.css');
 @import url('reader.css');
 @import url('sidebar.css');
+
+@media screen and (max-width: 768px) {
+
+    .layout-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 0;
+        left: 0;
+        box-sizing: border-box;
+    }
+
+    .content {
+        width: 100%;
+        padding: 10px;
+    }
+}

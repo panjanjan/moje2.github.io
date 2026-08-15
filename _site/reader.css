@@ -1,4 +1,3 @@
-/* Styling for the controls container */
 .reader-controls {
     display: flex;
     flex-direction: column;
@@ -7,8 +6,6 @@
     margin-bottom: 20px;
 }
 
-
-/* Button styling */
 .reader-controls button {
     background-color: #1e1e1e;
     color: #ffffff;
@@ -24,20 +21,15 @@
     background-color: #333;
 }
 
-/* Container for Next/Prev buttons */
 .nav-buttons {
     display: flex;
     gap: 10px;
 }
 
-/* --- Single Page Mode Logic --- */
-
-/* When single page mode is active, hide all images by default */
 .content.single-page-mode img {
     display: none;
 }
 
-/* Only show the image that has the 'active' class */
 .content.single-page-mode img.active-page {
     display: block;
 }

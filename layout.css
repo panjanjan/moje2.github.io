@@ -1,13 +1,11 @@
-/* Reset basic margins so the page goes edge-to-edge */
 body, html {
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
-    background-color: #121212; /* Dark background is usually better for reading manga */
+    background-color: #121212;
     color: #ffffff;
 }
 
-/* The flex container that holds both sidebar and content */
 .layout-container {
     display: flex;
     min-height: 100vh;

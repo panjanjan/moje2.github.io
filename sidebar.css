@@ -1,15 +1,13 @@
-/* Sidebar styling */
 .sidebar {
     width: 180px;
     background-color: #1e1e1e;
     padding: 20px;
-    /* Makes the sidebar stay visible while scrolling down tall chapters */
     position: sticky;
     top: 10px;
     left: 10px;
     height: 100vh;
     box-sizing: border-box;
-    overflow-y: auto; /* Adds a scrollbar to the sidebar if you get hundreds of chapters */
+    overflow-y: auto;
 }
 
 .sidebar ul {
