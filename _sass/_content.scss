@@ -1,0 +1,16 @@
+/* Main content styling */
+.content {
+    flex: 1; /* Takes up the remaining space */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers your manga pages */
+}
+
+/* Manga image styling */
+.content img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 20px; /* Space between pages */
+}
