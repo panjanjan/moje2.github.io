@@ -7,15 +7,23 @@
 
     .layout-container {
         flex-direction: column;
+        padding-bottom: 10px;
     }
 
     .sidebar {
         width: 100%;
         height: auto;
         position: relative;
-        top: 0;
-        left: 0;
+        padding: 10px 10px;
         box-sizing: border-box;
+    }
+
+    .sidebar nav, .sidebar ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        padding: 0;
     }
 
     .content {
