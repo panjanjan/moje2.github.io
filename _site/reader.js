@@ -13,18 +13,15 @@ document.addEventListener("DOMContentLoaded", function() {
     const toggleBtn = document.createElement('button');
     toggleBtn.textContent = 'Switch to Single Page Mode';
 
-
     const navDiv = document.createElement('div');
     navDiv.className = 'nav-buttons';
     navDiv.style.display = 'none'; // Hidden by default in scroll mode
-
 
     const prevBtn = document.createElement('button');
     prevBtn.textContent = 'Previous Page';
 
     const nextBtn = document.createElement('button');
     nextBtn.textContent = 'Next Page';
-
 
     // 2. Assemble and inject the controls before the first image
     navDiv.appendChild(prevBtn);
